@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsProdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="730dp"
+        android:layout_height="418dp"
+        android:background="@drawable/fondoicon2"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+
+        <TextView
+            android:id="@+id/txtEjemplo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_transparente"
+            android:text="Desea eliminar este producto de su lista de pedidos?"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSI"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_weight="1"
+                android:text="Si"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                app:backgroundTint="@color/yellow" />
+
+            <Button
+                android:id="@+id/btnNO"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginRight="20sp"
+                android:text="No"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                app:backgroundTint="@color/yellow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

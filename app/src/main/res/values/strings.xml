@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JyF Industrial</string>
+    <string name="title_home">Mis Datos</string>
+    <string name="ok">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="titulo">JyF INDUSTRIAL</string>
+    <string name="title_dashboard">Catalogo</string>
+    <string name="title_notifications">Mis Pedidos</string>
+    <string name="title_test">Test Mail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

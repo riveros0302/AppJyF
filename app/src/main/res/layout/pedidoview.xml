@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white_transparente"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtDescripcionPedido"
+            android:layout_width="405dp"
+            android:layout_height="match_parent"
+            android:text="Descripcion"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtCantidadPedido"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="Cantidad:"
+            android:textAlignment="textStart"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_Unit"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:text="unit"
+            android:textAlignment="textStart"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtTotalPedido"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="Total:"
+            android:textAlignment="textStart"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>
